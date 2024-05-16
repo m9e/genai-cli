@@ -163,7 +163,7 @@ def main():
     parser.add_argument('--system', help='System message')
     parser.add_argument('-f', '--filter', help='Filter files by string in path')
     parser.add_argument('--stats', action='store_true', help='Print statistics')
-    parser.add_argument('-v', '--verbose', action='store_true', help='Print raw request and response to stderr')
+    parser.add_argument('-v', '--verbose', action='store_true', help='Print raw request, response, params to stderr')
     parser.add_argument('-e', '--extensions', help='Comma-separated list of file extensions to process')
 
     args = parser.parse_args()
